@@ -1,0 +1,18 @@
+---
+all:
+  hosts:
+    el-instance:
+      ansible_host: 192.168.56.137
+    k-instance:
+      ansible_host: 192.168.56.138
+    l-instance:
+      ansible_host: 192.168.56.139  
+elasticsearch:
+  hosts:
+    el-instance:
+kibana:
+  hosts:
+    k-instance:   
+logstash:
+  hosts:
+    l-instance:    

@@ -1,0 +1,10 @@
+---
+  - src: git@github.com:sergeychernyshov/elk-elasticsearch-role.git
+    scm: git  
+    version: main
+  - src: git@github.com:sergeychernyshov/elk-kibana-role.git
+    scm: git 
+    version: main
+  - src: git@github.com:sergeychernyshov/elk-logstash-role.git
+    scm: git 
+    version: main
