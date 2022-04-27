@@ -1,6 +1,6 @@
 node('ansible'){
     stage('Checkout') {
-        git branch: 'main', credentialsId: '', url: ''
+        git branch: 'main', credentialsId: 'edbe325c-d85b-40c0-ba03-7254dc08a2a8', url: 'git@github.com:sergeychernyshov/elk-role.git'
     }
     stage('install requirements roles') {
         sh 'pip3 install -r requirements.txt'
